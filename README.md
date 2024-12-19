@@ -32,3 +32,22 @@ Este proyecto es un **prototipo** de aplicación de calendario desarrollado en P
 
    ```bash
    python calendario.py
+   ```
+   
+## Limitaciones y futuras mejoras
+
+Este proyecto es un prototipo en desarrollo y actualmente presenta algunas limitaciones. Las siguientes funciones aún no están implementadas, pero están previstas para futuras versiones:
+
+- **Edición y eliminación de notas.**
+- **Sincronización con calendarios externos.**
+- **Almacenamiento en bases de datos** en lugar de un archivo de texto.
+- **Notificaciones y recordatorios automáticos.**
+- **Mejora del diseño visual de la interfaz.**
+
+Actualmente, solo se permite trabajar con fechas futuras y el sistema asume que las tareas tienen una única descripción.
+
+## Notas importantes
+
+- Si no existe el archivo `notas.txt`, este será creado automáticamente.
+- Asegúrate de ejecutar el script en un entorno compatible con la configuración regional española para el correcto funcionamiento de los nombres de días y meses.
+
